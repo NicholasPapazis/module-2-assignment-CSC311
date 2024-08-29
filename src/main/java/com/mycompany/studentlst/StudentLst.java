@@ -25,7 +25,12 @@ public class StudentLst {
     public static String printOutput(Student[] students){
         String str="";
         
-        //To Do 03: complete the implementation of this method  
+        //To Do 03: complete the implementation of this method
+        for(int i = 0; i < students.length; i++)
+        {
+            str += students[i].getName() + " ";
+        }
+
         
         return str;
     }
