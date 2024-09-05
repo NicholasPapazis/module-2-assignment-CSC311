@@ -20,6 +20,7 @@ public class StudentLst {
             
         }
         System.out.println(printOutput(students));
+
     }
     
     public static String printOutput(Student[] students){
@@ -33,7 +34,7 @@ public class StudentLst {
         }
 
         
-        return str;
+        return "Printing the output " + "The student's name is " + str + "\n";
     }
     
     
